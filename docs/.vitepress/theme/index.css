@@ -1,8 +1,9 @@
 :root {
-  --b-bg: #fff;
+  --b-bg: #b9dec9;
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;
   background-color: var(--b-bg);
 }
