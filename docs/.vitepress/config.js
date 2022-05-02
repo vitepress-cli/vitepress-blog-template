@@ -4,11 +4,11 @@ export default {
     nav: [
       {
         text: 'blog',
-        link: '/blog'
+        link: '/blogs'
       },
       {
         text: 'project',
-        link: '/post'
+        link: '/posts'
       }
     ],
     communities: [
