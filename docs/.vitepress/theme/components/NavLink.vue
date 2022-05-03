@@ -1,7 +1,7 @@
 <script setup>
 import { toRefs } from 'vue'
-import { withBase } from 'vitepress'
-
+import { withBase, useRoute } from 'vitepress'
+console.log(useRoute())
 const props = defineProps({
   icon: String,
   link: String,
@@ -15,7 +15,7 @@ const { link, icon, text } = propsRefs
 <template>
   <a :href="link" class="nav-link" :target="!!icon ? '_blank' : '_self'">
     {{ text && text }}
-    <img v-if="icon" class="nav-icons" :src="withBase(`/icons/${icon}.svg`)" :alt="icon">
+    <img v-if="icon" class="nav-icons" :src="withBase(`/${icon}.svg`)" :alt="icon">
   </a>
 </template>
 

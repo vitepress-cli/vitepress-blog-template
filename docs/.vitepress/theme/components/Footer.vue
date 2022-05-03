@@ -16,8 +16,9 @@ const footerInfo = computed(() => {
 </template>
 <style scoped lang="scss">
 footer {
-  width: 50vw;
-  margin: 0 auto;
+  width: 100vw;
+  margin-top: 1.2rem;
+  text-align: center;
   color: var(--c-text-light-3);
 }
 </style>
