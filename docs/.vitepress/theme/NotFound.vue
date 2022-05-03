@@ -7,7 +7,6 @@ const props = defineProps({
 })
 const { enableHome } = toRefs(props)
 const { localePath } = useData()
-console.log(enableHome)
 </script>
 
 <template>

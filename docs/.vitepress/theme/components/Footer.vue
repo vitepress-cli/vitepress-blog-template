@@ -6,7 +6,7 @@ const { site, frontmatter } = useData()
 // home
 const footerInfo = computed(() => {
   const footer = frontmatter.value.footer || site.footer
-  return !!footer ? footer : 'must be config footer info if you want to deloying'
+  return !!footer ? footer : ''
 })
 </script>
 <template>
