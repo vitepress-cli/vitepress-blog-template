@@ -8,7 +8,7 @@ export default {
       },
       {
         text: 'project',
-        link: '/posts/'
+        link: '/projects/'
       }
     ],
     communities: [

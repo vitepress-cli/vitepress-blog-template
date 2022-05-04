@@ -1,7 +1,6 @@
 <script setup>
 import { toRefs } from 'vue'
-import { withBase, useRoute } from 'vitepress'
-console.log(useRoute())
+import { withBase } from 'vitepress'
 const props = defineProps({
   icon: String,
   link: String,

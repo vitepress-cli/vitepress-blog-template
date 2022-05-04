@@ -1,7 +1,13 @@
 <script setup>
+import { onMounted } from 'vue'
 import { useData } from 'vitepress'
 import NavbarTitle from './NavbarTitle.vue'
 import NavLinks from './NavLinks.vue'
+
+onMounted(() => {
+  const html = document.querySelector('html')
+  html.classList.add('light')
+})
 </script>
 
 <template>

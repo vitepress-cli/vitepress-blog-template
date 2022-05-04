@@ -5,8 +5,6 @@ import { useData } from 'vitepress'
 import NotFound from '../NotFound.vue'
 
 const { frontmatter } = useData()
-
-console.log(frontmatter)
 // home
 const enableHome = !!frontmatter.value.home
 
