@@ -13,7 +13,9 @@ const hasSidebar = computed(() => !!theme.value.sidebar)
 <template>
   <main>
     <Sidebar class="sidebar-contain" v-if="hasSidebar" :pages="pages"></Sidebar>
-    <Content class="content"></Content>
+    <article class="content">
+      <Content></Content>
+    </article>
   </main>
 </template>
 <style scoped lang="scss">
@@ -22,14 +24,16 @@ main {
   display: flex;
 
   .sidebar-contain {
-    width: 20%;
+    width: 20vw;
+    height: 90vh;
   }
 
   .content {
     box-sizing: border-box;
     padding: 0 5%;
-    width: 80%;
-
+    width: 80vw;
+    height: 90vh;
+    overflow-y: scroll;
   }
 }
 </style>

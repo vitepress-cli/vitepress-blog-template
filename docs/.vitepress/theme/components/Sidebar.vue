@@ -16,8 +16,6 @@ const { pages } = toRefs(props)
 aside {
   box-sizing: border-box;
   padding: 0 10px;
-  width: 100%;
-  height: 100vh;
   border-right: 2px solid #ccc;
   display: flex;
   flex-direction: column;
