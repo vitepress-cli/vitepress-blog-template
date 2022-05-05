@@ -5,7 +5,6 @@ import Project from './Project.vue'
 
 const { frontmatter } = useData()
 const { projects } = frontmatter.value
-console.log(frontmatter)
 </script>
 <template>
   <main>

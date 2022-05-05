@@ -24,6 +24,15 @@ export default {
         name: 'Juejin',
         link: 'https://juejin.cn/user/2796746683725271'
       }
-    ]
+    ],
+    sidebar: {
+      '/blogs/': [
+        { link: '/blogs/', name: 'index' },
+        { link: 'TCP连接与HTTPS加密', name: 'TCP连接与HTTPS加密' },
+        { link: 'test1', name: 'test1' },
+        { link: 'test2', name: 'test2' },
+        { link: 'test3', name: 'test3' }
+      ]
+    }
   }
 }
