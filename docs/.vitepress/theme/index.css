@@ -1,5 +1,6 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: var(--b-bg);
+  background-color: var(--c-bg-1);
+  transition: all 0.3s;
 }

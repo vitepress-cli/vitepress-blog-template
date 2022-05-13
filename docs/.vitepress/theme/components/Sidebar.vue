@@ -16,9 +16,10 @@ const { pages } = toRefs(props)
 aside {
   box-sizing: border-box;
   padding: 0 10px;
-  border-right: 2px solid #ccc;
+  border-right: 2px solid var(--c-divider);
   display: flex;
   flex-direction: column;
+  background: var(--c-bg-2);
 
   .sidebar-item {
     color: var(--c-text);

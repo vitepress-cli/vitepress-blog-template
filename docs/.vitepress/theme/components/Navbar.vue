@@ -27,5 +27,7 @@ header {
   align-items: center;
   box-sizing: border-box;
   padding: 0 1.3rem;
+  border-bottom: 1px solid var(--c-divider);
+  background: var(--c-bg-2);
 }
 </style>
